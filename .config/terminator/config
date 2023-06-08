@@ -1,0 +1,104 @@
+[global_config]
+  always_split_with_profile = True
+  geometry_hinting = True
+  inactive_color_offset = 0.5
+  sticky = True
+  title_font = HackGen Console 13
+  title_transmit_bg_color = "#df5000"
+  title_use_system_font = False
+[keybindings]
+  broadcast_all = None
+  broadcast_group = None
+  broadcast_off = None
+  close_term = <Shift><Alt>w
+  close_window = None
+  cycle_next = None
+  cycle_prev = None
+  edit_tab_title = None
+  edit_terminal_title = None
+  edit_window_title = None
+  go_down = <Shift><Alt>n
+  go_left = <Shift><Alt>b
+  go_next = None
+  go_prev = None
+  go_right = <Shift><Alt>f
+  go_up = <Shift><Alt>p
+  group_all = None
+  group_tab = None
+  help = None
+  hide_window = None
+  insert_number = None
+  insert_padded = None
+  layout_launcher = None
+  move_tab_left = <Primary><Shift>Page_Up
+  move_tab_right = <Primary><Shift>Page_Down
+  new_tab = <Primary><Shift>t
+  new_terminator = None
+  new_window = None
+  next_tab = <Primary>Tab
+  page_down = <Primary><Alt>n
+  page_down_half = <Primary><Shift><Alt>n
+  page_up = <Primary><Alt>p
+  page_up_half = <Primary><Shift><Alt>p
+  prev_tab = <Primary><Shift>Tab
+  reset = None
+  reset_clear = None
+  resize_down = <Shift><Alt>Down
+  resize_left = <Shift><Alt>Left
+  resize_right = <Shift><Alt>Right
+  resize_up = <Shift><Alt>Up
+  rotate_ccw = None
+  rotate_cw = None
+  scaled_zoom = None
+  search = <Primary><Shift>f
+  split_horiz = <Alt>quotedbl
+  split_vert = <Alt>percent
+  switch_to_tab_1 = <Primary>exclam
+  switch_to_tab_10 = <Primary>quotedbl
+  switch_to_tab_2 = <Primary>numbersign
+  switch_to_tab_3 = <Primary>dollar
+  switch_to_tab_4 = <Primary>percent
+  switch_to_tab_5 = <Primary>ampersand
+  switch_to_tab_6 = <Primary>apostrophe
+  switch_to_tab_7 = <Primary>parenleft
+  switch_to_tab_8 = <Primary>parenright
+  switch_to_tab_9 = <Primary>asciitilde
+  toggle_scrollbar = None
+  toggle_zoom = None
+  ungroup_all = None
+  ungroup_tab = None
+  zoom_in = None
+  zoom_normal = None
+  zoom_out = None
+[layouts]
+  [[default]]
+    [[[terminal1]]]
+      order = 0
+      parent = window0
+      profile = default
+      type = Terminal
+      uuid = bd693aff-9359-4e71-9909-e716b9dbcf04
+    [[[window0]]]
+      fullscreen = False
+      last_active_term = bd693aff-9359-4e71-9909-e716b9dbcf04
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 900:160
+      size = 830, 870
+      title = terminator
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = HackGen Console 13
+    foreground_color = "#ffffff"
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000ee:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
+    scroll_on_output = True
+    scrollback_lines = 10000
+    use_system_font = False
+    visible_bell = True

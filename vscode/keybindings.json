@@ -1,0 +1,40 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+  {
+    "key": "shift+alt+n",
+    "command": "workbench.action.terminal.focus"
+  },
+  {
+    "key": "shift+alt+p",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "shift+alt+b",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+shift+b",
+    "command": "workbench.files.action.focusFilesExplorer"
+  },
+  
+  {
+    "key":  "enter",
+    "command": "editor.action.nextMatchFindAction",
+    "when": "editorFocus && findWidgetVisible && !replaceInputFocussed"
+  },
+  {
+    "key": "right",
+    "command": "-emacs-mcx.isearchExit",
+    "when": "editorFocus && findWidgetVisible && !config.emacs-mcx.cursorMoveOnFindWidget && !isComposing && !replaceInputFocussed"
+  },
+  {
+    "key": "left",
+    "command": "-emacs-mcx.isearchExit",
+    "when": "editorFocus && findWidgetVisible && !config.emacs-mcx.cursorMoveOnFindWidget && !isComposing && !replaceInputFocussed"
+  }
+
+]
