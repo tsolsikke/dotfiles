@@ -16,8 +16,6 @@
     "editor.renderWhitespace": "boundary",
     "php.validate.enable": false,
     "php.suggest.basic": false,
-    "php.validate.executablePath": "D:\\xampp\\php\\php.exe",
-    "php.debug.executablePath": "D:\\xampp\\php\\php.exe",
     "files.associations": {
         "*.module": "php"
     },
@@ -88,12 +86,25 @@
         }
     ],
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnType": false,
+        "editor.tabSize": 2,
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": false
     },
     "python.venvFolders": [
+        "env",
         "envs",
         ".pyenv",
         ".direnv"
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E111,E114,E402,E501"
+    ],
+    "python.formatting.blackArgs": [
+        "--line-length=120"
     ]
 
 }
