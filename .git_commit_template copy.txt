@@ -1,0 +1,33 @@
+# ==== Commit Messages ====
+
+# ==== Commit Messages(Template) ====
+# <type>[optional scope]: <description>
+#
+# [optional body]
+#
+# [optional footer(s)]
+# ==== Default Type ====
+# fix: バグにパッチを当てる PATCH
+# feat: コードベースに新しい機能を追加 MINOR
+# BREAKING CHANGE: APIの破壊的変更 MAJOR
+#   任意の型のコミットに含めることができる
+#   型/スコープの直後に!でも同義
+#   footerに説明を記載
+# ==== Custom Type ====
+# docs: ドキュメントのみ変更
+# style: スペース、インデント、などフォーマットの修正
+# refactor: ソースのリファクタリング
+# perf: パフォーマンス改善, improveでも可
+# test: テストソースの変更
+# build: ソースのビルド処理変更
+# ci: ci/cd関連のソースや設定を変更
+# chore: その他など
+# ==== e.g. ====
+# feat(api)!: 新しいAPIエンドポイントを追加
+# 
+# - ユーザデータ取得のための`/users`エンドポイント追加
+#
+# BREAKING CHANGE: `/users`エンドポイントには認証用APIキーが必要になった
+# REviewed-by: Tom
+# Refs: #211, #228
+# ====
