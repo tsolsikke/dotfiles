@@ -1,24 +1,33 @@
 # ==== Commit Messages ====
 
 # ==== Commit Messages(Template) ====
-# e.g.
-# [type] #Issue番号 変更内容(What)
+# <type>[optional scope]: <description>
 #
-# 詳細の変更内容/なぜその実装をしたか(Why)
-# ==== Prefix ====
-# [WIP] 作業中/まだ完了していない
-# [fix] バグ修正
-# [hotfix] クリティカルなバグ修正
-# [add] 新規機能・新規ファイル追加
-# [update] バグではない機能修正
-# [change] 仕様変更による機能修正
-# [docs] ドキュメントのみ修正
-# [disable] 無効化
-# [remove(delete)] ファイル削除、コードの一部を取り除く
-# [rename] ファイル名の変更
-# [upgrade] バージョンアップ
-# [revert] 修正取り消し
-# [style] 空白、セミコロン、行、コーディングフォーマットなどの修正
-# [refactor] リファクタリング
-# [test] テスト追加や間違っていたテストの修正
-# [chore] ビルドツールやライブラリで自動生成されたものをコミットするとき
+# [optional body]
+#
+# [optional footer(s)]
+# ==== Default Type ====
+# fix: バグにパッチを当てる PATCH
+# feat: コードベースに新しい機能を追加 MINOR
+# BREAKING CHANGE: APIの破壊的変更 MAJOR
+#   任意の型のコミットに含めることができる
+#   型/スコープの直後に!でも同義
+#   footerに説明を記載
+# ==== Custom Type ====
+# docs: ドキュメントのみ変更
+# style: スペース、インデント、などフォーマットの修正
+# refactor: ソースのリファクタリング
+# perf: パフォーマンス改善, improveでも可
+# test: テストソースの変更
+# build: ソースのビルド処理変更
+# ci: ci/cd関連のソースや設定を変更
+# chore: その他など
+# ==== e.g. ====
+# feat(api)!: 新しいAPIエンドポイントを追加
+# 
+# - ユーザデータ取得のための`/users`エンドポイント追加
+#
+# BREAKING CHANGE: `/users`エンドポイントには認証用APIキーが必要になった
+# REviewed-by: Tom
+# Refs: #211, #228
+# ====
