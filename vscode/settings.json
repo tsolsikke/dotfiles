@@ -105,6 +105,9 @@
     ],
     "python.formatting.blackArgs": [
         "--line-length=120"
+    ],
+    "flake8.args": [
+        "--max-line-length=120",
+        "--ignore=E111,E501"
     ]
-
 }
